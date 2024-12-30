@@ -21,7 +21,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           {/* Logo and Description */}
           <div className="lg:col-span-2">
-            <img src="/mainlogo.png" alt="HubConnect Logo" className="h-8 mb-4" />
+            <img src="/footer-logo.png" alt="HubConnect Logo" className="h-8 mb-4" />
             <p className="text-gray-600 mb-6">
               Connecting property owners, buyers, and service providers in one seamless platform.
             </p>

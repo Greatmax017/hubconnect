@@ -30,7 +30,7 @@ const HowItWorks = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="relative">
             <img 
-              src="/hiw.png" 
+              src="/how.png" 
               alt="HubConnect App Interface" 
               className="w-full max-w-md mx-auto"
             />

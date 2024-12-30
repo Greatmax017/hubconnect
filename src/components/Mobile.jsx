@@ -32,7 +32,7 @@ const MobileApp = () => {
           
           <div className="relative flex justify-center lg:justify-end">
             <img 
-              src="/mobileapp.png" 
+              src="/future.png" 
               alt="HubConnect Mobile App" 
               className="w-full max-w-sm"
             />
