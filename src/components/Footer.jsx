@@ -15,6 +15,8 @@ const Footer = () => {
     { icon: <Linkedin className="w-5 h-5" />, href: "#" }
   ];
 
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="w-full bg-white py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -58,7 +60,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="mt-12 pt-8 border-t border-gray-200">
           <p className="text-center text-gray-600">
-            © 2024 HubConnect. All rights reserved.
+            © {currentYear} HubConnect. All rights reserved.
           </p>
         </div>
       </div>
