@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Form from '../features/waitlist/Form';
 
 
 
@@ -15,18 +16,10 @@ const Hero = () => (
           <p className="text-gray-300 text-lg md:text-xl mb-8">
             Your all-in-one platform for property listings, service providers, and investment opportunities
           </p>
-          <form onSubmit={(e) => e.preventDefault()}>
-            <div className="flex flex-col sm:flex-row gap-4 sm:gap-4">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="bg-[#0D1534] text-white px-4 py-3 rounded-lg w-full max-w-sm border border-[#e7e8eb]/50 focus:outline-none focus:ring-2 focus:ring-purple-600"
-              />
-              <button type='submit' className="bg-purple-600 text-white px-8 py-3 rounded-lg hover:bg-purple-700 whitespace-nowrap">
-                Join waitlist
-              </button>
-            </div>
-          </form>
+          
+
+          {/* form */}
+          <Form />
         </div>
         
         <div className="relative mt-8 lg:mt-0">
