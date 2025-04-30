@@ -1,5 +1,5 @@
 import React from 'react';
-import { Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+import { Facebook, Twitter, Instagram, Linkedin, X, MessageCircleIcon } from 'lucide-react';
 
 const Footer = () => {
   const footerLinks = {
@@ -9,10 +9,10 @@ const Footer = () => {
   };
 
   const socialLinks = [
-    { icon: <Facebook className="w-5 h-5" />, href: "#" },
-    { icon: <Twitter className="w-5 h-5" />, href: "#" },
-    { icon: <Instagram className="w-5 h-5" />, href: "#" },
-    { icon: <Linkedin className="w-5 h-5" />, href: "#" }
+    { icon: <Facebook className="w-5 h-5" />, href: "https://www.facebook.com/people/Hubconnect/61551623840729/" },
+    { icon: <X className="w-5 h-5" />, href: "https://x.com/Hubconnect5046" },
+    { icon: <MessageCircleIcon className="w-5 h-5" />, href: "https://whatsapp.com/channel/0029Vb6C99ND38CR0XCvYt06" },
+    { icon: <Linkedin className="w-5 h-5" />, href: "https://www.linkedin.com/company/hub-connect/" }
   ];
 
   const currentYear = new Date().getFullYear();
@@ -32,6 +32,7 @@ const Footer = () => {
                 <a
                   key={index}
                   href={social.href}
+                  target='_blank'
                   className="bg-purple-100 p-2 rounded-full text-purple-600 hover:bg-purple-200 transition-colors"
                 >
                   {social.icon}
